@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_components",
+  "info": {
+    "name": "sectionComponents",
+    "icon": "cubes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionComponentIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.icon",
+      "required": true
+    },
+    "sectionTechsTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

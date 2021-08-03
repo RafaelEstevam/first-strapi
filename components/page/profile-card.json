@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_profile_cards",
+  "info": {
+    "name": "profileCard",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "profileCardImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "profileCardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "profileCardSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "profileCardNetworkLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.profile-card-network-links"
+    },
+    "profileCardContent": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_titles",
+  "info": {
+    "name": "title",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

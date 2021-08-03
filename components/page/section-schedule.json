@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_schedules",
+  "info": {
+    "name": "sectionSchedule",
+    "icon": "calendar-day"
+  },
+  "options": {},
+  "attributes": {
+    "sectionScheduleTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionScheduleContent1": {
+      "type": "richtext",
+      "required": true
+    },
+    "sectionScheduleContent2": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

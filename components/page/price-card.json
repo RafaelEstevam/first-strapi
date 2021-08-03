@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_price_cards",
+  "info": {
+    "name": "priceCard",
+    "icon": "table"
+  },
+  "options": {},
+  "attributes": {
+    "priceCardLabel": {
+      "type": "string",
+      "required": true
+    },
+    "priceCardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "priceCardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concept-item",
+      "required": true
+    },
+    "priceCardButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.price-card-button",
+      "required": true
+    }
+  }
+}

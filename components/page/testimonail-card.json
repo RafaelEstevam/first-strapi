@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_testimonail_cards",
+  "info": {
+    "name": "testimonailCard",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "testimonialCardImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "testimonialCardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "testimonialCardContent": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

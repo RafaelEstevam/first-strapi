@@ -1,0 +1,82 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "landingPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "landingPageHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
+      "required": true
+    },
+    "landingPageTechs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-components",
+      "required": true
+    },
+    "landingPageConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
+      "required": true
+    },
+    "landingPageModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "landingPageSchedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-schedule",
+      "required": true
+    },
+    "landingPageProfiles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-profiles",
+      "required": true
+    },
+    "landingPageTestimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-testimonials"
+    },
+    "landingPageFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq"
+    },
+    "landingPagePriceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.price-card"
+    },
+    "landingPageAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_icons",
+  "info": {
+    "name": "icon",
+    "icon": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "iconMedia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "iconLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

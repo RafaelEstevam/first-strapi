@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_profiles",
+  "info": {
+    "name": "SectionProfiles",
+    "icon": "id-card-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionProfilesTitle": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "collection": "authors"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_faq_items",
+  "info": {
+    "name": "faqItem",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "faqItemTitle": {
+      "type": "string",
+      "required": true
+    },
+    "faqItemContent": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

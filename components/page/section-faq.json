@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_faqs",
+  "info": {
+    "name": "sectionFaq",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "sectionFaqTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionFaqItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.faq-item"
+    }
+  }
+}

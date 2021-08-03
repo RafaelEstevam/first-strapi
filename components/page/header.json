@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_headers",
+  "info": {
+    "name": "header",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerTitle": {
+      "type": "string",
+      "required": true
+    },
+    "headerDescription": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "headerImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

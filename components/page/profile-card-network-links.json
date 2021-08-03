@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_profile_card_network_links",
+  "info": {
+    "name": "profileCardNetworkLinks",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "profileCardNetworkLinksImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "profileCardNetworkLinksSelect": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Twitter",
+        "Facebook",
+        "Linkedin"
+      ],
+      "default": "Github",
+      "required": true
+    },
+    "profileCardNetworkLinksUrl": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

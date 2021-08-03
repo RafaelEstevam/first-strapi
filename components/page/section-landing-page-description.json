@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_landing_page_descriptions",
+  "info": {
+    "name": "section",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionDescription": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

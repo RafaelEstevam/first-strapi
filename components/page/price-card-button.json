@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_price_card_buttons",
+  "info": {
+    "name": "priceCardButton",
+    "icon": "hand-point-up"
+  },
+  "options": {},
+  "attributes": {
+    "priceCardButtonLabel": {
+      "type": "string",
+      "default": "Comprar curso",
+      "required": true
+    },
+    "priceCardButtonPrice": {
+      "type": "string",
+      "default": "399",
+      "required": true
+    },
+    "priceCardButtonPriceHighlight": {
+      "type": "string",
+      "required": true,
+      "default": "299"
+    },
+    "priceCardButtonLink": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
